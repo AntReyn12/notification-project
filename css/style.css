@@ -1,0 +1,57 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+body {
+  background-color: lightblue;
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  color: black;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.button {
+  background: goldenrod;
+  width: 250px;
+  padding: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 50px auto;
+  display: inline-block;
+  cursor: pointer;
+}
+.movies {
+  display: flex;
+  width: 95%;
+  margin: 0 auto;
+}
+.movie {
+  max-width: 20%;
+  background: #fff;
+  padding: 15px;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 15px 2.5%;
+  cursor: pointer;
+  text-align: center;
+}
+.title {
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.movie.selected {
+  -webkit-box-shadow: 0px 0px 161px -5px rgba(235, 235, 117, 0.8);
+  -moz-box-shadow: 0px 0px 161px -5px rgba(235, 235, 117, 0.8);
+  box-shadow: 0px 0px 161px -5px rgba(235, 235, 117, 0.8);
+}
+.movie img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.hide {
+  display: none;
+}
